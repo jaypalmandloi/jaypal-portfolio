@@ -1,4 +1,5 @@
 # Jaypal Singh Mandloi - Portfolio Web Application
+# URL: https://jaypalmandloi.github.io/jaypal-portfolio/
 
 A cutting-edge, responsive full-stack portfolio built utilizing React, TypeScript, and Tailwind CSS showcasing cloud architecture engineering and AI system output validation expertise.
 
