@@ -1,0 +1,24 @@
+import React from 'react';
+import { portfolioData } from '../data/portfolioData';
+
+export const WhatIBring: React.FC = () => {
+  return (
+    <section className="py-24 bg-slate-900/30 px-6 border-t border-slate-900">
+      <div className="max-w-5xl mx-auto space-y-12">
+        <div className="text-center space-y-3">
+          <h2 className="text-3xl font-bold text-white">What I Bring to the Table</h2>
+          <div className="w-16 h-1 bg-cyan-500 mx-auto rounded-full" />
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {portfolioData.whatIBring.map((point, idx) => (
+            <div key={idx} className="p-5 bg-slate-900 border border-slate-800 rounded-xl flex items-start space-x-3 shadow">
+              <span className="text-cyan-400 text-sm font-bold">★</span>
+              <span className="text-xs text-slate-300 font-medium leading-relaxed">{point}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
