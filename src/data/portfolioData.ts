@@ -6,19 +6,23 @@ export interface Project {
 }
 
 export const portfolioData = {
-  name: "Soft-Spectrum",
+  name: "Jaypal Singh Mandloi",
   title: "Full-Stack .NET & Cloud Engineer",
   tagline: "Specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure.",
   about: "Experienced Full-Stack .NET Engineer specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure. Strong experience across backend API development, frontend application development, cloud integration, database design, CI/CD, debugging, performance optimization, and modern software architecture. Skilled in building end-to-end solutions by integrating React frontends with .NET Web APIs and deploying applications through Azure DevOps and cloud platforms.",
   careerObjective: "To contribute as a Full-Stack .NET & Cloud Engineer by combining strong expertise in C#, .NET, React, Azure, AWS, and Azure DevOps to build scalable applications, improve engineering processes, and contribute to high-quality AI and software engineering solutions.",
   
   coreSkills: [
-    "C#", ".NET / .NET Core", "ASP.NET Core", "Web API", "RESTful API Development",
-    "React", "JavaScript / TypeScript", "HTML5 / CSS3", "Entity Framework Core", "LINQ",
-    "SQL Server", "Microservices", "Clean Architecture", "SOLID Principles", "Design Patterns",
-    "AWS", "Microsoft Azure", "Azure DevOps", "CI/CD Pipelines", "Git", "Docker",
-    "API Integration", "Authentication & Authorization", "Unit Testing", "Code Review",
-    "Debugging & Troubleshooting", "Performance Optimization", "Technical Documentation", "AI/LLM Output Evaluation"
+    "Node.js", "Express.js", "NestJS", "JavaScript / TypeScript",
+"RESTful API Development", "GraphQL", "MongoDB", "PostgreSQL", "Mongoose",
+"Prisma", "Redis", "JWT", "OAuth 2.0", "WebSockets", "Socket.IO", "npm / pnpm",
+"C#", ".NET / .NET Core", "ASP.NET Core", "React", "HTML5 / CSS3",
+"Entity Framework Core", "LINQ", "SQL Server", "Microservices",
+"Clean Architecture", "SOLID Principles", "Design Patterns",
+"AWS", "Microsoft Azure", "Azure DevOps", "CI/CD Pipelines", "Git", "Docker",
+"API Integration", "Authentication & Authorization", "Unit Testing", "Jest",
+"Code Review", "Debugging & Troubleshooting", "Performance Optimization",
+"Technical Documentation", "AI/LLM Output Evaluation"
   ],
 
   technicalExpertise: [
