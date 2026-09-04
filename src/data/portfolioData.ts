@@ -6,7 +6,7 @@ export interface Project {
 }
 
 export const portfolioData = {
-  name: "Jaypal Singh Mandloi",
+  name: "Soft-Spectrum",
   title: "Full-Stack .NET & Cloud Engineer",
   tagline: "Specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure.",
   about: "Experienced Full-Stack .NET Engineer specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure. Strong experience across backend API development, frontend application development, cloud integration, database design, CI/CD, debugging, performance optimization, and modern software architecture. Skilled in building end-to-end solutions by integrating React frontends with .NET Web APIs and deploying applications through Azure DevOps and cloud platforms.",
