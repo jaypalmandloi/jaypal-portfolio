@@ -13,16 +13,19 @@ export const portfolioData = {
   careerObjective: "To contribute as a Full-Stack .NET & Cloud Engineer by combining strong expertise in C#, .NET, React, Azure, AWS, and Azure DevOps to build scalable applications, improve engineering processes, and contribute to high-quality AI and software engineering solutions.",
   
   coreSkills: [
-    "Node.js", "Express.js", "NestJS", "JavaScript / TypeScript",
-"RESTful API Development", "GraphQL", "MongoDB", "PostgreSQL", "Mongoose",
-"Prisma", "Redis", "JWT", "OAuth 2.0", "WebSockets", "Socket.IO", "npm / pnpm",
-"C#", ".NET / .NET Core", "ASP.NET Core", "React", "HTML5 / CSS3",
-"Entity Framework Core", "LINQ", "SQL Server", "Microservices",
-"Clean Architecture", "SOLID Principles", "Design Patterns",
-"AWS", "Microsoft Azure", "Azure DevOps", "CI/CD Pipelines", "Git", "Docker",
-"API Integration", "Authentication & Authorization", "Unit Testing", "Jest",
-"Code Review", "Debugging & Troubleshooting", "Performance Optimization",
-"Technical Documentation", "AI/LLM Output Evaluation"
+    "AI/LLM Output Evaluation",
+
+    "Microsoft Azure", "Azure DevOps", "CI/CD Deployment", "Azure Functions", "Azure Storage", "Docker", 
+    "Node.js", "React","Express.js",  "TypeScript","Redis",
+"Microservices","RESTful API Development", 
+"C#", ".NET / .NET Core", "ASP.NET Core", 
+ "JWT", "OAuth 2.0", 
+ "Entity Framework Core", "LINQ",  
+"SQL Server", "My-Sql","MongoDB", "PostgreSQL","SnowFlake", "Database Design & Optimization", 
+"API Integration","Clean Architecture", "SOLID Principles", "Design Patterns",
+ "Git", "Technical Documentation",
+ "Code Review", "Performance Optimization",
+ "HTML5 / CSS3"
   ],
 
   technicalExpertise: [
@@ -30,20 +33,22 @@ export const portfolioData = {
       category: "Backend Development",
       description: "Strong experience developing production-ready backend applications using C# and .NET.",
       items: [
+         "Node.js", "Express.js",  "TypeScript","Redis",
         "C#", ".NET / .NET Core", "ASP.NET Core", "Web API", "REST APIs",
         "Entity Framework Core", "LINQ", "Dependency Injection", "Middleware",
         "Authentication and Authorization", "Exception Handling", "Asynchronous Programming",
-        "API validation", "Logging and monitoring", "Performance optimization"
+        "Logging and monitoring", "Performance optimization"
       ]
     },
     {
       category: "Frontend Development",
       description: "Experience developing responsive and maintainable web applications using React and modern frontend technologies.",
       items: [
-        "React", "JavaScript", "TypeScript", "HTML5", "CSS3",
-        "Component-based architecture", "React Hooks", "API integration", "Form validation",
-        "State management", "Responsive UI development", "Frontend performance optimization",
-        "React and .NET API integration"
+        "React",  "TypeScript", 
+        "Component-based architecture", "React Hooks", "API integration",  
+        "Responsive UI development", "Performance optimization",
+        "React and .NET API integration",
+        "HTML5","JavaScript", "CSS3"
       ]
     },
     {
