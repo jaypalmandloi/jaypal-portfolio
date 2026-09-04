@@ -8,12 +8,12 @@ export interface Project {
 export const portfolioData = {
   name: "Jaypal Singh Mandloi",
   title: "Full-Stack .NET & Cloud Engineer",
-  tagline: "Specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure.",
-  about: "Experienced Full-Stack .NET Engineer specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, AWS, and Microsoft Azure. Strong experience across backend API development, frontend application development, cloud integration, database design, CI/CD, debugging, performance optimization, and modern software architecture. Skilled in building end-to-end solutions by integrating React frontends with .NET Web APIs and deploying applications through Azure DevOps and cloud platforms.",
-  careerObjective: "To contribute as a Full-Stack .NET & Cloud Engineer by combining strong expertise in C#, .NET, React, Azure, AWS, and Azure DevOps to build scalable applications, improve engineering processes, and contribute to high-quality AI and software engineering solutions.",
+  tagline: "Specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, and Microsoft Azure.",
+  about: "Experienced Full-Stack .NET Engineer specializing in building scalable, secure, and maintainable web applications using C#, .NET, ASP.NET Core, React, SQL Server, and Microsoft Azure. Strong experience across backend API development, frontend application development, cloud integration, database design, CI/CD, debugging, performance optimization, and modern software architecture. Skilled in building end-to-end solutions by integrating React frontends with .NET Web APIs and deploying applications through Azure DevOps and cloud platforms.",
+  careerObjective: "To contribute as a Full-Stack .NET & Cloud Engineer by combining strong expertise in C#, .NET, React, Azure, and Azure DevOps to build scalable applications, improve engineering processes, and contribute to high-quality AI and software engineering solutions.",
   
   coreSkills: [
-    "AI/LLM Output Evaluation",
+    "AI-powered Tools - Claude,  Microsoft Copilot, Replit AI, Cursor AI,Google Gemini, ChatGPT ",
 
     "Microsoft Azure", "Azure DevOps", "CI/CD Deployment", "Azure Functions", "Azure Storage", "Docker", 
     "Node.js", "React","Express.js",  "TypeScript","Redis",
@@ -53,10 +53,10 @@ export const portfolioData = {
     },
     {
       category: "Cloud Technologies",
-      description: "Hands-on knowledge of cloud application development and integration using Microsoft Azure and AWS.",
+      description: "Hands-on knowledge of cloud application development and integration using Microsoft Azure.",
       items: [
         "Azure App Services", "Azure Functions", "Azure Storage", "Azure DevOps",
-        "Azure Pipelines", "CI/CD & Deployment", "AWS Cloud Services", "Scalable Cloud Architecture"
+        "Azure Pipelines", "CI/CD & Deployment", "Cloud Services", "Scalable Cloud Architecture"
       ]
     },
     {
@@ -71,7 +71,7 @@ export const portfolioData = {
 
   architectureFlow: {
     pipeline: "React → REST API → ASP.NET Core → Business Logic → Entity Framework Core → SQL Server",
-    deployment: "Cloud deployment and CI/CD using Azure DevOps, Azure, and AWS.",
+    deployment: "Cloud deployment and CI/CD using Azure DevOps, Azure",
     focusAreas: [
       "Separation of concerns", "Clean Architecture", "Scalable API design", 
       "Reusable React components", "Secure authentication", "Database optimization", 
@@ -143,7 +143,7 @@ export const portfolioData = {
     "Evaluating AI-generated C# and .NET code",
     "Reviewing React and frontend implementations",
     "Evaluating ASP.NET Core API designs",
-    "Reviewing Azure and AWS cloud solutions",
+    "Reviewing Azure cloud solutions",
     "Identifying technical inaccuracies and hallucinations",
     "Evaluating scalability and performance",
     "Reviewing database and API approaches",
@@ -169,16 +169,17 @@ export const portfolioData = {
     Backend: [".NET", ".NET Core", "ASP.NET Core", "Web API", "Entity Framework Core", "LINQ"],
     Frontend: ["React", "HTML5", "CSS3", "JavaScript", "TypeScript"],
     Databases: ["SQL Server", "Relational Database Design", "Query Optimization"],
-    Cloud: ["Microsoft Azure", "AWS"],
+    Cloud: ["Microsoft Azure","Azure App Service", "Azure Functions", "Azure Blob Storage", "Azure Database", "Azure Kubernetes Service (AKS)", "Azure Load Balancer", "Azure Key Vault", "Azure Monitor", "Azure Logic Apps", "Azure Service Bus", "Azure Event Grid"],
     DevOps: ["Azure DevOps", "Azure Repos", "Azure Pipelines", "CI/CD", "Git", "Docker"],
     Architecture: ["Microservices", "REST APIs", "Clean Architecture", "SOLID", "Design Patterns"],
-    Practices: ["Code Review", "Unit Testing", "Debugging", "Performance Optimization", "Technical Documentation"]
+    Practices: ["Code Review", "Unit Testing", "Debugging", "Performance Optimization", "Technical Documentation"],
+    AITools: ["Claude", "Microsoft Copilot", "Replit AI", "Cursor AI", "Google Gemini", "ChatGPT"]
   },
 
   whatIBring: [
     "Strong C# and .NET development experience",
     "Full-stack development using React + .NET",
-    "Experience with AWS and Microsoft Azure",
+    "Experience with Microsoft Azure",
     "Strong Azure DevOps and CI/CD knowledge",
     "Backend API and integration expertise",
     "Modern frontend development experience",
